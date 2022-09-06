@@ -17,13 +17,13 @@ We are going to use the data from AI Stanford Dataset (https://ai.stanford.edu/~
 You can use `Docker` to easily install all the needed packages and libraries:
 
 ```bash
-$ docker build -t sprint6_project -f ./Dockerfile .
+$ docker build -t sentiment_analysis_project -f ./Dockerfile .
 ```
 
 ### Run Docker
 
 ```bash
-$ docker run --rm -it -p 8888:8888 -v $(pwd):/home/app/src sprint6_project bash
+$ docker run --rm -it -p 8888:8888 -v $(pwd):/home/app/src sentiment_analysis_project bash
 ```
 
 ## Run Project
